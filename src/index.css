@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.featured {
+  background-color: rgb(41, 40, 40);
+  color: white;
+
+  height: 340px;
+}
+.newsgrid {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.news {
+  background-color: rgb(41, 40, 40);
+  height: 300px;
+}
